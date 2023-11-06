@@ -20,7 +20,7 @@
 }
 
 
-:root {
+/* :root {
   font-family: 'Kanit', sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -34,20 +34,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
+} */
 
 html,
 body,
 #root,
 .app,
 .content {
-  width: 100%;
   height: 100%;
+  width: 100%; 
 }
 
 .app{
   display: flex;
   position: relative;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
 }
 
 
