@@ -106,7 +106,7 @@ const Sidebar = () => {
                     alt="user_pic"
                     width="100px"
                     height="100px"
-                    src={`../../assets/user.jpg`}
+                    src={`./user.jpg`}
                     style={{cursor: "pointer", borderRadius:"50%"}}
                   />
                 </Box>
