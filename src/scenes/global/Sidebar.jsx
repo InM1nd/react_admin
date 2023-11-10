@@ -18,6 +18,8 @@ import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 
+import Teple from '../../img/user.jpg'
+
 const Item = ({ title, to, icon, selected, setSelected}) => {
 
   Item.propTypes = {
@@ -106,7 +108,7 @@ const Sidebar = () => {
                     alt="user_pic"
                     width="100px"
                     height="100px"
-                    src={`./user.jpg`}
+                    src={Teple}
                     style={{cursor: "pointer", borderRadius:"50%"}}
                   />
                 </Box>
